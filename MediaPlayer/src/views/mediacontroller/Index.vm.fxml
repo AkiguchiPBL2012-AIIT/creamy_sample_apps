@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import creamy.scene.control.*?>
+<?import creamy.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="root" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="views.mediacontroller.Index">
+  <center>
+    <Pane depthTest="ENABLE" prefHeight="551.0" prefWidth="728.0" snapToPixel="false">
+      <children>
+        <Pane fx:id="mediaPlayerPane" layoutX="98.0" layoutY="68.0" prefHeight="380.0" prefWidth="600.0" />
+      </children>
+      <BorderPane.margin>
+        <Insets left="10.0" top="10.0" />
+      </BorderPane.margin>
+    </Pane>
+  </center>
+  <stylesheets>
+    <URL value="@../Common.css" />
+  </stylesheets>
+  <top>
+    <Text text="MediaPlayer Sample">
+      <font>
+        <Font size="24.0" />
+      </font>
+      <BorderPane.margin>
+        <Insets left="10.0" top="10.0" />
+      </BorderPane.margin>
+    </Text>
+  </top>
+</BorderPane>

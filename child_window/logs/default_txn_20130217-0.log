@@ -1,0 +1,6 @@
+txn[1001], 20:17:52.194, select t0.id c0, t0.name c1, t0.introduced c2, t0.discontinued c3         , t1.id c4, t1.name c5  from computer t0 left outer join company t1 on t1.id = t0.company_id   where lower(t0.name) like ?   order by t0.name  limit 6 
+txn[1001], 20:17:52.912, FindMany type[Computer] origin[D6DAPb.CAy8Wi.ByZNx2] exeMicros[717239] rows[5] name[] predicates[lower(t0.name) like ? ] bind[%%] 
+txn[1001], 20:18:08.150, select t0.id c0, t0.name c1, t0.introduced c2, t0.discontinued c3         , t1.id c4, t1.name c5  from computer t0 left outer join company t1 on t1.id = t0.company_id   where lower(t0.name) like ?   order by t0.name  limit 6 
+txn[1001], 20:18:08.873, FindMany type[Computer] origin[D6DAPb.CAy8Wi.ByZNx2] exeMicros[722999] rows[5] name[] predicates[lower(t0.name) like ? ] bind[%%] 
+txn[1001], 21:47:54.353, select t0.id c0, t0.name c1, t0.introduced c2, t0.discontinued c3         , t1.id c4, t1.name c5  from computer t0 left outer join company t1 on t1.id = t0.company_id   where lower(t0.name) like ?   order by t0.name  limit 6 
+txn[1001], 21:47:55.146, FindMany type[Computer] origin[D6DAPb.CAy8Wi.ByZNx2] exeMicros[793266] rows[5] name[] predicates[lower(t0.name) like ? ] bind[%%] 

@@ -1,0 +1,11 @@
+#root { 
+    -fx-background-color: LemonChiffon;
+}
+
+CFHyperlink { 
+    -fx-text-fill: blue;
+}
+
+.grid-list {
+    -fx-grid-lines-visible: true;
+}
